@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_vyska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vyska" />
+
+    <EditText
+        android:id="@+id/editText_vyska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:importantForAutofill="" />
+
+    <TextView
+        android:id="@+id/textView_vaha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vaha" />
+
+    <EditText
+        android:id="@+id/editText_vaha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView_jmeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jmeno" />
+
+    <EditText
+        android:id="@+id/editText_jmeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonVyhodnotit"
+        android:text="@string/vyhodnotit" />
+</LinearLayout>

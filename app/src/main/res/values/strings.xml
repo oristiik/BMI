@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Milatam_testApr_BMI</string>
+    <string name="vyska">Výška [cm]</string>
+    <string name="vaha">Váha [kg]</string>
+    <string name="jmeno">Jméno</string>
+    <string name="vyhodnotit">Vyhodnotit</string>
+</resources>
